@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorting Alrorithms</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="row">
+        <div id="col">
+            <div id="leftBox"></div>
+        </div>
+        <div id="col">
+            <div id="rightBox"></div>
+        </div>
+    </div>
+    <div id="btn-wrapper">
+        <button id="numbersBtn" onclick="random()">Generate numbers</button>
+        <button id="bubblesortBtn" onclick="bubbleSortEvent()">Bubble Sort</button>
+        <button id="insertionsortBtn" onclick="insertionSortEvent()">Insertion Sort</button>
+        <button id="selectionsortBtn" onclick="selectionSortEvent()">Selection Sort</button>
+        <button id="quicksortBtn" onclick="quickSortEvent()">Quick Sort</button>
+        <button id="clearBtn" onclick="clearBtn()">Clear</button>
+    </div>
+    <script>
+        function clearBtn() {
+            location.reload() ;
+        }
+    </script>
+</body>
+<script src="js/numbers.js"></script>
+<script src="js/bubblesort.js"></script>
+<script src="js/insertionsort.js"></script>
+</html>

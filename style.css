@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    background:#f3f1ef;
+}
+#leftBox {
+    height: 600px;
+    width: 50%;
+    position: relative;
+    background: #f1a9a0;
+    float: left;
+    overflow-wrap: break-word;
+    overflow: scroll;
+    padding: 20px;
+}
+#rightBox {
+    height: 600px;
+    width: 50%;
+    position: relative;
+    background: #81cfe0;
+    float: right;
+    overflow-wrap: break-word;
+    overflow: scroll;
+    padding: 20px;
+}
+#btn-wrapper {
+    margin-top: 43%;
+    position: absolute;
+    width: 81.5%;
+    background: #bfbfbf;
+    height: 80px;
+    padding: 17px;
+    left: 13%;
+}
+button {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px;
+    border-top: 2px dashed yellow;
+    border-bottom: 2px dashed yellow;
+    background: #424242;
+    left: 0px;
+    top: 5px;
+    color: white;
+}
